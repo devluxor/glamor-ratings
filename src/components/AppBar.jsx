@@ -26,9 +26,6 @@ const AppBar = () => {
   return (
     <View style={styles.container}>
       <ScrollView horizontal>
-        <Pressable 
-        onPress={() => console.log('aloha! bar pressed!')}
-      >
         <View style={[styles.flexContainerRow, styles.container]}>
           <Link to="/sign-in">
             <Text
@@ -47,7 +44,6 @@ const AppBar = () => {
             </Text>
           </Link>
         </View>
-      </Pressable>
       </ScrollView>
     </View>
   );
