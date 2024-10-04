@@ -28,6 +28,7 @@ const SignInForm = () => {
       paddingHorizontal: 10,
       marginBottom: 20,
       backgroundColor: '#fff',
+      placeholderTextColor: '#999',
     },
     label: {
       fontSize: 16,
